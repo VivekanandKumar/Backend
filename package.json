@@ -2,7 +2,7 @@
   "name": "mflix-backend",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+
   "main": "app.js",
   "engines": {
     "node": "20.x"
