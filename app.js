@@ -14,6 +14,9 @@ configDotenv();
         app.use(cors())
         app.use(express.json())
         app.use('/movie', movieRoutes)
+        app.get('/', (req, res) => {
+            return res.send('<h1>Welcome to Mflix</h1>')
+        })
 
 
 
