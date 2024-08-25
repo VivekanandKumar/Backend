@@ -2,10 +2,10 @@ import express from "express";
 import cors from 'cors'
 import connectDB from "./utils/connection.js";
 import movieRoutes from './routes/movieRoutes.js'
-// import { configDotenv } from "dotenv";
+import { configDotenv } from "dotenv";
 const app = express();
 
-// configDotenv();
+configDotenv();
 
 (async () => {
     try {
